@@ -15,6 +15,5 @@ public class App {
         Messages messages = new Messages();
         Users user = new Users(messages);
         user.getMessages();
-        // add commit
     }
 }
