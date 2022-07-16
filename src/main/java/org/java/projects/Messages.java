@@ -4,7 +4,7 @@ public class Messages implements PrintMessage{
     private String message;
 
     @Override
-    public String showMessagesString() {
+    public String showStrMessages() {
         return message;
     }
 }
