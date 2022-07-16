@@ -6,7 +6,9 @@ public class Print implements PrintMessage{
 //    ArrayList<String> messages = new ArrayList<String>();
 //    messages.add("df");
 //    messages.add("dsdf");
-
+/**
+ * New logic
+ */
     @Override
     public String showMessagesString() {
         return message;
