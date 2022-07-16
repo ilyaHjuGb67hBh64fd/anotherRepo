@@ -12,9 +12,11 @@ import java.util.Scanner;
 public class App {
     public static void main( String[] args ) {
 
-        Messages messages = new Messages();
-        Users user = new Users(messages);
-        user.getMessages();
+        Messages message = new Messages();
+        Users user = new Users(message);
+        String s = user.convertMessagesToString(message);
+        System.out.println(s);
+
         // add commit
         // add new commit
     }

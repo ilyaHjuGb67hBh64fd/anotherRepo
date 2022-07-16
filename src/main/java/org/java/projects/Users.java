@@ -12,18 +12,35 @@ public class Users implements ShowMessage {
     public Users(Messages message){
         this.message = message;
     }
-    public Users(Users user, Messages messages) {
+    public Users(Users user, Messages message) {
         this.user = user;
-        this.message = messages;
+        this.message = message;
     }
-    public Messages getMessages() {
+
+    /**
+     *
+     * @return message
+     */
+    public String convertMessagesToString (Messages message) {
+        return message.toString();
+    }
+    /**
+     * Set message
+     * @param message with one introduce parameter
+     */
+    public void setMessages(Messages message) {
+        this.message = message;
+    }
+
+    /**
+     * Get message
+     * @param message with one introduce parameter
+     * @return message
+     */
+
+    public Messages getMessage(Messages message) {
         return message;
     }
-    public void setMessages(Messages messages) {
-        this.message = messages;
-    }
-    @Override
-    public Messages getMessage(String messages) {
-        return message;
-    }
+
+    // add commit
 }
