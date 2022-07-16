@@ -14,7 +14,7 @@ public class App
     public static void main( String[] args ) {
         String scanString = " This message show in console ";
 
-
+        // Scanner view
         Scanner scanner = new Scanner(scanString);
         String outString = scanner.nextLine();
         /*PrintStream printStream = new PrintStream(scanner);
