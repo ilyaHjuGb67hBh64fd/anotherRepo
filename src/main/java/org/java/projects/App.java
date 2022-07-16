@@ -14,8 +14,6 @@ public class App {
 
         Messages messages = new Messages();
         Users user = new Users(messages);
-        user.showMessage(messages.showMessagesString());
-
-
+        user.getMessages();
     }
 }
